@@ -19,7 +19,7 @@
   --text: #0a0a0a;
   --text-secondary: #4a4a4a;
   --text-muted: #9a9a9a;
-  --accent: #0a0a0a;
+  --accent: #F97316;
 }
 
 html { scroll-behavior: smooth; }
@@ -219,7 +219,7 @@ nav {
   align-items: center;
   gap: 8px;
   padding: 13px 26px;
-  background: var(--text);
+  background: var(--accent);
   color: white;
   text-decoration: none;
   font-size: 0.78rem;
@@ -230,9 +230,9 @@ nav {
   border: none;
   cursor: pointer;
   font-family: 'Inter', sans-serif;
-  transition: opacity 0.2s, transform 0.15s;
+  transition: background 0.2s, transform 0.15s;
 }
-.btn-primary:hover { opacity: 0.8; transform: translateY(-1px); }
+.btn-primary:hover { background: #EA580C; transform: translateY(-1px); }
 
 .btn-ghost {
   display: inline-flex;
